@@ -150,13 +150,3 @@ def luy_thua():
 		print(V2)
 	
 luy_thua()
-
-#Kiem tra
-print()
-print()
-A = get_matrix()
-x, V = LA.eig(A)
-print(x)
-print(V)
-
-#Doi i/r/s neu ket qua ra sai (Vi ham chon dia chi i, r va s dang sai)
