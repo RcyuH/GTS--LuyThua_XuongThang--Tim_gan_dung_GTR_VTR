@@ -177,11 +177,3 @@ def eigvalues(A):
 A = get_matrix()
 v = eigvalues(A)
 print(v)
-
-#Kiem tra
-print()
-print()
-A = get_matrix()
-x, V = LA.eig(A)
-print(x)
-print(V)
